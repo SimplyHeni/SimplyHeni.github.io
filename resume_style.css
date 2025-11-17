@@ -15,7 +15,7 @@ td {
 h1, h2{
     color: #2c3e50;
     margin-bottom: 5px;
-    
+    text-align: left;
 }
 hr {
     border: 0;
