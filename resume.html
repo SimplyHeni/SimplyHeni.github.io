@@ -6,6 +6,19 @@
  <title>Resume</title>
  <link rel="stylesheet" href="resume_style.css" >
 </head>
+<style>
+  .edu-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .edu-right {
+    margin-left: auto;
+    text-align: right;
+  }
+</style>
+
 
 
 <body>
@@ -22,13 +35,25 @@
 
        <!-- Education Section -->
        <tr>
-           <td width="25%"><h2>Education</h2></td>
-           <td>
-           <strong>University of South Carolina Columbia</strong>                                             Columbia, SC<br>
-           <i>Bachelor of Science in Computer Science                                                         May 2029</i><br>
-           <i>Minor in Finance                                                                                GPA: 4.0</i>
-           </td>
-       </tr>  
+    <td width="25%"><h2>Education</h2></td>
+    <td>
+        <div class="edu-line">
+            <strong>University of South Carolina Columbia</strong>
+            <span class="edu-right">Columbia, SC</span>
+        </div>
+
+        <div class="edu-line">
+            <i>Bachelor of Science in Computer Science</i>
+            <span class="edu-right">May 2029</span>
+        </div>
+
+        <div class="edu-line">
+            <i>Minor in Finance</i>
+            <span class="edu-right">GPA: 4.0</span>
+        </div>
+    </td>
+</tr>
+
 
 
        <!-- Experience Section -->
