@@ -15,14 +15,10 @@ td {
 h1, h2{
     color: #2c3e50;
     margin-bottom: 5px;
-    text-align: center;
+    
 }
 hr {
     border: 0;
     border-top: 2px solid #2c3e50;
     margin: 10px 0 20px 0;
-}
-
-body {
-    text-align: center;
 }
