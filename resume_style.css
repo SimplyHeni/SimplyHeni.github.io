@@ -33,3 +33,15 @@ hr {
     margin-left: auto;
     text-align: right;
 }
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right {
+    margin-left: auto;
+    text-align: right;
+}
+
